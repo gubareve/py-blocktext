@@ -6,7 +6,6 @@ def blocktext(text):
     result = []
     data = []
     data += text
-    print(data)
     for x in data:
         if (x == "A"):
             result += ("""           
@@ -409,3 +408,4 @@ def blocktext(text):
   _        
  (_)
             """)    
+    return data
