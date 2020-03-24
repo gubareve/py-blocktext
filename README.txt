@@ -1,1 +1,11 @@
-The pyblocktext module lets users run the blocktext() command for single char's in python 2.
+Install
+
+$ pip install pyblocktext or $ python -m pip install pyblocktext
+
+Usage
+
+import pyblocktext
+blocktext = pyblocktext.blocktext
+print blocktext("a")
+
+ONLY WORKS FOR INDIVIDUAL
