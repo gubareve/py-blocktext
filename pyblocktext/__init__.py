@@ -1,1 +1,1 @@
-import pyblocktextmain.py
+import pyblocktextmain
