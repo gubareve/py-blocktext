@@ -1,19 +1,6 @@
 The pyblocktext package makes ascii art super easy!
 
-print ("A") -->
-
-           
-     /\    
-    /  \   
-   / /\ \  
-  / ____ \ 
- /_/    \_\
-           
-           
-
-
-
-
+print pyblocktext.blocktext("A") --> ascii art for a
 
 Install
 
