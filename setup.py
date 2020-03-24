@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='pyblocktext',
     version='0.1',
-    packages=find_packages(exclude=['tests*']),
+    packages=find_packages(exclude=['.github*']),
     license='MIT',
     description='a python package to generate blocktext',
     long_description=open('README.txt').read(),
