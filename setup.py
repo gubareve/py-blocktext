@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyblocktext',
-    version='1.1',
+    version='1.2',
     packages=find_packages(exclude=['.github*']),
     license='MIT',
     description='a python package to generate blocktext',
