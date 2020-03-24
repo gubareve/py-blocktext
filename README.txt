@@ -1,3 +1,20 @@
+The pyblocktext package makes ascii art super easy!
+
+print ("A") -->
+
+           
+     /\    
+    /  \   
+   / /\ \  
+  / ____ \ 
+ /_/    \_\
+           
+           
+
+
+
+
+
 Install
 
 ---------------------------
