@@ -2,6 +2,17 @@ def blocktext(text):
     '''
     takes text and returns blocktext
     '''
+    def listToString(s):  
+    
+    # initialize an empty string 
+        str1 = ""  
+    
+    # traverse in the string   
+        for ele in s:  
+            str1 += ele   
+    
+    # return string   
+        return str1  
     text = text.upper()
     result = []
     data = []
@@ -408,4 +419,4 @@ def blocktext(text):
   _        
  (_)
             """)    
-    return result
+    return listToString(result)
