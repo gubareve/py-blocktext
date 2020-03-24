@@ -7,6 +7,6 @@ A python package for block text creation
 # Usage
 ``` 
 import pyblocktext
-blocktext = pyblocktext.pyblocktextmain.blocktext
+blocktext = pyblocktext.blocktext
 print blocktext("a")
 ```
