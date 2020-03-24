@@ -1,6 +1,6 @@
 The pyblocktext package makes ascii art super easy!
 
-print pyblocktext.blocktext("A") --> ascii art for a
+print pyblocktext.blocktext("ABC") --> ascii art for a
 
 Install
 
@@ -20,6 +20,5 @@ import pyblocktext
 
 blocktext = pyblocktext.blocktext
 
-print blocktext("a")
+print blocktext("abc123")
 
-ONLY WORKS FOR INDIVIDUAL CHAR'S
