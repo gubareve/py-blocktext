@@ -8,7 +8,7 @@ def blocktext(text):
     data += text
     for x in data:
         if (x == "A"):
-            result = ("""           
+            result += ("""           
      /\    
     /  \   
    / /\ \  
@@ -17,7 +17,7 @@ def blocktext(text):
            
            """)
         if (x == "B"):
-            result = ("""
+            result += ("""
   ____  
  |  _ \ 
  | |_) |
@@ -28,7 +28,7 @@ def blocktext(text):
         
             """)        
         if (x == "C"):
-            result = ("""
+            result += ("""
    _____ 
   / ____|
  | |     
@@ -39,7 +39,7 @@ def blocktext(text):
                      
             """)    
         if (x == "D"):
-            result = ("""
+            result += ("""
   _____  
  |  __ \ 
  | |  | |
@@ -50,7 +50,7 @@ def blocktext(text):
                      
             """)
         if (x == "E"):
-            result = ("""
+            result += ("""
   ______ 
  |  ____|
  | |__   
@@ -61,7 +61,7 @@ def blocktext(text):
                      
             """)
         if (x == "F"):
-            result = ("""
+            result += ("""
   ______ 
  |  ____|
  | |__   
@@ -72,7 +72,7 @@ def blocktext(text):
                      
             """)
         if (x == "G"):
-            result = ("""
+            result += ("""
    _____ 
   / ____|
  | |  __ 
@@ -83,7 +83,7 @@ def blocktext(text):
                      
             """)
         if (x == "H"):
-            result = ("""
+            result += ("""
   _    _ 
  | |  | |
  | |__| |
@@ -94,7 +94,7 @@ def blocktext(text):
                      
             """)
         if (x == "I"):
-            result = ("""
+            result += ("""
   _____ 
  |_   _|
    | |  
@@ -105,7 +105,7 @@ def blocktext(text):
                     
             """)
         if (x == "J"):
-            result = ("""
+            result += ("""
        _ 
       | |
       | |
@@ -116,7 +116,7 @@ def blocktext(text):
                      
             """)
         if (x == "K"):
-            result = ("""
+            result += ("""
   _  __
  | |/ /
  | ' / 
@@ -127,7 +127,7 @@ def blocktext(text):
                    
             """)
         if (x == "L"):
-            result = ("""
+            result += ("""
   _      
  | |     
  | |     
@@ -138,7 +138,7 @@ def blocktext(text):
                      
             """)
         if (x == "M"):
-            result = ("""
+            result += ("""
   __  __ 
  |  \/  |
  | \  / |
@@ -149,7 +149,7 @@ def blocktext(text):
                      
             """)
         if (x == "N"):
-            result = ("""
+            result += ("""
   _   _ 
  | \ | |
  |  \| |
@@ -160,7 +160,7 @@ def blocktext(text):
                     
             """)
         if (x == "O"):
-            result = ("""
+            result += ("""
    ____  
   / __ \ 
  | |  | |
@@ -171,7 +171,7 @@ def blocktext(text):
                      
             """)
         if (x == "P"):
-            result = ("""
+            result += ("""
   _____  
  |  __ \ 
  | |__) |
@@ -182,7 +182,7 @@ def blocktext(text):
                      
             """)
         if (x == "Q"):
-            result = ("""
+            result += ("""
    ____  
   / __ \ 
  | |  | |
@@ -193,7 +193,7 @@ def blocktext(text):
                      
             """)
         if (x == "R"):
-            result = ("""
+            result += ("""
   _____  
  |  __ \ 
  | |__) |
@@ -204,7 +204,7 @@ def blocktext(text):
                      
             """)
         if (x == "S"):
-            result = ("""
+            result += ("""
    _____ 
   / ____|
  | (___  
@@ -215,7 +215,7 @@ def blocktext(text):
                      
             """)
         if (x == "T"):
-            result = ("""
+            result += ("""
   _______ 
  |__   __|
     | |   
@@ -226,7 +226,7 @@ def blocktext(text):
                       
             """)
         if (x == "U"):
-            result = ("""
+            result += ("""
   _    _ 
  | |  | |
  | |  | |
@@ -237,7 +237,7 @@ def blocktext(text):
                      
             """)
         if (x == "V"):
-            result = ("""
+            result += ("""
  __      __
  \ \    / /
   \ \  / / 
@@ -248,7 +248,7 @@ def blocktext(text):
                        
             """)
         if (x == "W"):
-            result = ("""
+            result += ("""
  __          __
  \ \        / /
   \ \  /\  / / 
@@ -259,7 +259,7 @@ def blocktext(text):
                            
             """)
         if (x == "X"):
-            result = ("""
+            result += ("""
  __   __
  \ \ / /
   \ V / 
@@ -270,7 +270,7 @@ def blocktext(text):
                     
             """)
         if (x == "Y"):
-            result = ("""
+            result += ("""
  __     __
  \ \   / /
   \ \_/ / 
@@ -281,7 +281,7 @@ def blocktext(text):
                       
             """)
         if (x == "Z"):
-            result = ("""
+            result += ("""
   ______
  |___  /
     / / 
@@ -292,7 +292,7 @@ def blocktext(text):
                     
             """)
         if (x == "1"):
-            result = ("""
+            result += ("""
   __ 
  /_ |
   | |
@@ -303,7 +303,7 @@ def blocktext(text):
                  
             """)
         if (x == "2"):
-            result = ("""
+            result += ("""
   ___  
  |__ \ 
     ) |
@@ -314,7 +314,7 @@ def blocktext(text):
                    
             """)
         if (x == "3"):
-            result = ("""
+            result += ("""
   ____  
  |___ \ 
    __) |
@@ -325,7 +325,7 @@ def blocktext(text):
                     
             """)
         if (x == "4"):
-            result = ("""
+            result += ("""
   _  _   
  | || |  
  | || |_ 
@@ -336,7 +336,7 @@ def blocktext(text):
                      
             """)
         if (x == "5"):
-            result = ("""
+            result += ("""
   _____ 
  | ____|
  | |__  
@@ -347,7 +347,7 @@ def blocktext(text):
                     
             """)
         if (x == "6"):
-            result = ("""
+            result += ("""
     __  
    / /  
   / /_  
@@ -358,7 +358,7 @@ def blocktext(text):
                     
             """)
         if (x == "7"):
-            result = ("""
+            result += ("""
   ______ 
  |____  |
      / / 
@@ -369,7 +369,7 @@ def blocktext(text):
                      
             """)
         if (x == "8"):
-            result = ("""
+            result += ("""
    ___  
   / _ \ 
  | (_) |
@@ -380,7 +380,7 @@ def blocktext(text):
                     
             """)
         if (x == "9"):
-            result = ("""
+            result += ("""
    ___  
   / _ \ 
  | (_) |
@@ -391,7 +391,7 @@ def blocktext(text):
                     
             """)
         if (x == "0"):
-            result = ("""
+            result += ("""
    ___  
   / _ \ 
  | | | |
@@ -404,7 +404,7 @@ def blocktext(text):
             
                 
         if (x == "."):    
-           result = ("""
+           result += ("""
   _        
  (_)
             """)    
