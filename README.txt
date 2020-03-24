@@ -1,6 +1,6 @@
 The pyblocktext package makes ascii art super easy!
 
-print pyblocktext.blocktext("ABC") --> ascii art for a
+print pyblocktext.blocktext("ABC") --> ascii art for ABC
 
 Install
 
