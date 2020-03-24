@@ -4,6 +4,7 @@ def blocktext(text):
     '''
     text = text.upper()
     result = []
+    data = []
     data += text
     print(data)
     for x in data:
